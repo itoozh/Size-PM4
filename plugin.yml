@@ -1,0 +1,14 @@
+name: Size-PM4
+version: 0.0.1
+main: yevwi\Loader
+api: 4.0.0
+
+commands:
+  size:
+    description: Comando para modificar tu tamaño
+    permission: size.command
+
+permissions:
+  size.command:
+    description: Permiso para usar el comando /size
+    default: op
