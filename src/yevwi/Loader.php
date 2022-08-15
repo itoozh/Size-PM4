@@ -27,7 +27,7 @@ class Loader extends PluginBase implements Listener
                     $sender->sendMessage(TextFormat::colorize('&cDebes ingresar un valor numerico!'));
                     return false;
                 }
-                if (count($args) < 1) {
+                if (count($args) < 0) {
                     $sender->sendMessage(TextFormat::colorize('&cUsa /size [int: scale]'));
                     return false;
                 }
